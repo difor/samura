@@ -1,0 +1,115 @@
+@@include('template/header.html')
+
+
+<div class="breadcrumbs">
+	<div class="container">
+		<div class="breadcrumbs--grid">
+			<a href="#">Главная</a>
+			<span>Корзина</span>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="cart">
+	<div class="container">
+		<div class="headline">
+			<p>Корзина</p>
+		</div>
+		<div class="cart-grid">
+			<!-- BEGIN top -->
+			<div class="cart-top">
+				<p class="cart-top__number">№</p>
+				<p class="cart-top__item">Товар</p>
+				<p class="cart-top__quantity">Количество</p>
+				<p class="cart-top__summ">Сумма</p>
+				<p class="cart-top__delete">Удалить</p>
+			</div>
+			<!-- END top -->
+			<div class="cart-main">
+				<!-- BEGIN item -->
+				<div class="cart-item">
+					<p class="cart-item__number">1.</p>
+					<div class="cart-item--info">
+						<img src="img/kinds/1.png" class="cart-item__image" alt="">
+						<div class="cart-item--text">
+							<div class="cart-item__top">
+								<p>SD67-0010</p>
+								<span>€23.00</span>
+							</div>
+							<p class="cart-item__description">Samura DAMASCUS 67 Нож кухонный овощной 3.9"/98 мм. 67 слоев. Твердость стали 61 HRC</p>
+						</div>
+					</div>
+					<div class="button-plus-minus">
+						<span class="minus">-</span>
+						<input type="text" value="1" size="2">
+						<span class="plus">+</span>
+					</div>
+					<p class="cart-item__summ">€23.00</p>
+					<div class="cart-remove">  
+						<span class="icon icon-remove"></span>
+					</div>
+				</div>
+				<!-- END item -->
+				<!-- BEGIN item -->
+				<div class="cart-item">
+					<p class="cart-item__number">2.</p>
+					<div class="cart-item--info">
+						<img src="img/kinds/3.png" class="cart-item__image" alt="">
+						<div class="cart-item--text">
+							<div class="cart-item__top">
+								<p>SD67-0010</p>
+								<span>€23.00</span>
+							</div>
+							<p class="cart-item__description">Samura DAMASCUS 67 Нож кухонный овощной 3.9"/98 мм. 67 слоев. Твердость стали 61 HRC</p>
+						</div>
+					</div>
+					<div class="button-plus-minus">
+						<span class="minus">-</span>
+						<input type="text" value="1" size="2">
+						<span class="plus">+</span>
+					</div>
+					<p class="cart-item__summ">€23.00</p>
+					<div class="cart-remove">
+						<span class="icon icon-remove"></span>
+					</div>
+				</div>
+				<!-- END item -->
+				<!-- BEGIN item -->
+				<div class="cart-item">
+					<p class="cart-item__number">3.</p>
+					<div class="cart-item--info">
+						<img src="img/kinds/2.png" class="cart-item__image" alt="">
+						<div class="cart-item--text">
+							<div class="cart-item__top">
+								<p>SD67-0010</p>
+								<span>€23.00</span>
+							</div>
+							<p class="cart-item__description">Samura DAMASCUS 67 Нож кухонный овощной 3.9"/98 мм. 67 слоев. Твердость стали 61 HRC</p>
+						</div>
+					</div>
+					<div class="button-plus-minus">
+						<span class="minus">-</span>
+						<input type="text" value="1" size="2">
+						<span class="plus">+</span>
+					</div>
+					<p class="cart-item__summ">€23.00</p>
+					<div class="cart-remove">
+						<span class="icon icon-remove"></span>
+					</div>
+				</div>
+				<!-- END item -->
+			</div>
+			<div class="cart-total">
+				<p class="cart-total__item">Итого 4 товара на сумму</p>
+				<p class="cart-total__summ">€1450.00</p>
+				<a class="cart-total__button" href="#">Купить набор</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+@@include('template/footer.html')

@@ -1,0 +1,38 @@
+{
+  "name": "Samura",
+  "version": "1.0.0",
+  "license": "ISC",
+  "dependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.2.3",
+    "chalk": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-file-include": "^1.1.0",
+    "gulp-imagemin": "^5.0.0",
+    "gulp-import-css": "^0.1.3",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-tinypng-nokey-plus": "^1.0.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-pngquant": "^4.0.0",
+    "imagemin-svgo": "^5.2.2",
+    "owl.carousel": "2.2.0",
+    "rimraf": "^2.3.1"
+  },
+  "description": ""
+}

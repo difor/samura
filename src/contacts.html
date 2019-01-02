@@ -1,0 +1,81 @@
+@@include('template/header.html')
+
+
+<div class="breadcrumbs">
+	<div class="container">
+		<div class="breadcrumbs--grid">
+			<a href="#">Главная</a>
+			<span>Контакты</span>
+		</div>
+	</div>
+</div>
+
+
+<div class="contacts">
+	<div class="container">
+		<div class="headline">
+			<p>Контакты</p>
+		</div>
+		<div class="contacts-grid">
+			<div class="contacts-info">
+				<p class="contacts-info__title">Контактная информация:</p>
+				<div class="contacts-info--row">
+					<!-- BEGIN item -->
+					<div class="contacts-info--item">
+						<a href="tel:+37128755710" class="contacts-info__phone">+371 28755710</a>
+					</div>
+					<!-- END item -->
+					<!-- BEGIN item -->
+					<div class="contacts-info--item">
+						<a href="tel:+37128755710" class="contacts-info__phone">+371 28755710</a>
+					</div>
+					<!-- END item -->
+					<!-- BEGIN item -->
+					<div class="contacts-info--item">
+						<a href="mailto:info@samura.org" class="contacts-info__email">info@samura.org</a>
+					</div>
+					<!-- END item -->
+					<!-- BEGIN item -->
+					<div class="contacts-info--item">
+						<a href="#" target="_blank" class="contacts-info__social fb"></a>
+						<a href="#" target="_blank" class="contacts-info__social instagram"></a>
+					</div>
+					<!-- END item -->
+				</div>
+				<p class="contacts-info__title">Наш адрес:</p>
+				<div class="contacts-info--row">
+					<!-- BEGIN item -->
+					<div class="contacts-info--item">
+						<p class="contacts-info__text">Estonia pst. 5-309B, Tallinn, <br>Harju maakond, 10143.</p>
+					</div>
+					<!-- END item -->
+					<!-- BEGIN item -->
+					<div class="contacts-info--item">
+						<p class="contacts-info__text">Estonia pst. 5-309B, Tallinn, <br>Harju maakond, 10143.</p>
+					</div>
+					<!-- END item -->
+				</div>
+			</div>
+			<div class="contacts-form">
+				<p class="contacts-form__title">Свяжитесь с нами:</p>
+				<form action="#" method="POST">
+					<div class="contacts-form__one">
+						<input type="text" name="name" placeholder="Ваше имя">
+					</div>
+					<div class="contacts-form__two">
+						<input type="email" name="email" placeholder="Введите E-mail">
+						<input type="tel" name="phone" placeholder="Контактный телефон">
+					</div>
+					<div class="contacts-form__one">
+						<textarea name="comment" placeholder="Комментарий"></textarea>
+					</div>
+					<button>Отправить запрос</button>
+				</form>
+			</div>
+		</div>
+		
+		<div id="map"></div>
+	</div>
+</div>
+
+@@include('template/footer.html')
